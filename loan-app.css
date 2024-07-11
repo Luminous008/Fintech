@@ -1,0 +1,148 @@
+
+
+
+
+
+        
+        
+        
+        #current{
+
+            color:red;
+            border-bottom: 1px solid;
+            
+        }
+        
+        
+        
+        
+        .containerr{
+            width:1000px;
+            margin:auto;
+            overflow: hidden;
+        }
+        
+        
+        
+         /*RWD*/
+        
+          .containerr{
+            width: 1000px;
+            margin:auto;
+        }
+        
+        @media(max-width:600px) and (orientation:landscape){
+            .containerr {
+                width:100%; 
+                margin:auto;
+            }
+        }
+        
+        @media(max-width:600px) and (orientation:portrait){
+            .containerr{
+                width:100%; 
+                margin:auto;
+            }
+        }
+        
+        @media(min-width:601px) and (max-width:768px){
+            .containerr {
+                width:100%; 
+                margin:auto;
+            }
+        }
+        
+        
+        header{
+             background-color: #35424a; 
+            padding-top:30px;
+            padding-bottom: 30px;; 
+             min-height:70px;
+            border-bottom:blue 2px solid; 
+        }
+        
+        
+        
+        header .container .logo img{
+            width:100px;
+            border:blue 3px solid;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*Account Opening Form*/
+        
+        
+        .container-form{
+            min-height: 600px;
+            background:rgba(0,0,0,0.7);
+            background-position: center; 
+            background-size:cover;
+            background-repeat:no-repeat; 
+            
+        } 
+        
+        
+         .container-form h3{
+             padding:50px;
+            font-weight:bold;
+            font-size:20px;
+            text-transform: uppercase;
+            color:whitesmoke;
+            margin-top:-20px;
+            text-align: center;
+        } 
+        
+        
+        .container-form p{
+            font-size :18px;
+            color:whitesmoke;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        
+        }
+
+
+        label{
+            color: whitesmoke;
+
+        }
+
+
+        form{
+            margin-left: 45%;
+            /* border: 1px solid red;
+            width:14.2%; */
+            margin-top: -40px;
+        }
+        
+
+         button{
+            background-color:blue;
+            color: whitesmoke;
+        }
+         
+        
+        
+        
+        
+        /*footer*/
+        
+        footer  {
+            padding:20px;
+            text-align:center;
+            color:white;
+            background-color: red;
+            font-weight:bold;
+            
+           }
+        
+        
+        
+        

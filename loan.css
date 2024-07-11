@@ -1,0 +1,127 @@
+
+
+
+
+
+.containerr{
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+
+ /*RWD*/
+
+ .containerr{
+    width: 1000px;
+    margin:auto;
+}
+
+@media(max-width:600px) and (orientation:landscape){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(max-width:600px) and (orientation:portrait){
+    .containerr{
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+
+
+
+header{
+    /* background-color: #35424a; */
+    padding-top:10px;
+    padding-bottom: 10px;; 
+     min-height:70px;
+    border-bottom:blue 2px solid; 
+}
+
+
+
+header .container .logo img{
+    width:100px;
+    border:blue 3px solid;
+}
+
+
+
+
+
+
+
+/*loan*/
+
+.loan{
+    min-height: 500px;
+    background-color: #e6e6e6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:20px;
+    padding-bottom: 20px;
+
+}
+
+
+.branding{
+    margin-left: 40px;
+    padding:10px;
+}
+
+
+.branding h3{
+    text-transform: uppercase;
+    font-weight: 300px;
+    font-size: 20px;
+    
+
+}
+
+
+
+.branding p{
+    font-size: 15px;
+    font-weight:300px;
+    
+
+}
+
+/* 
+.branding a{
+    font-size: 20px;
+    font-weight: 300px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer  {
+    padding:20px;
+    text-align:center;
+    color:white;
+    background-color: red;
+    font-weight:bold;
+    
+   }

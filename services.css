@@ -1,0 +1,170 @@
+
+
+
+
+
+
+ body{
+    font: 15px arial;
+    padding:0;
+    margin:0;
+    background-color: #ffffff;
+
+}
+
+
+
+.containerr{
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+
+
+}
+
+
+#current{
+    color:red;
+    border-bottom: 1px solid;
+}
+
+
+
+
+ /*RWD*/
+
+ .containerr{
+    width: 1000px;
+    margin:auto;
+}
+
+@media(max-width:600px) and (orientation:landscape){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(max-width:600px) and (orientation:portrait){
+    .containerr{
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+
+
+
+header{
+    background-color: #35424a;
+    padding-top:30px;
+    padding-bottom: 30px;; 
+     min-height:70px;
+    border-bottom:blue 2px solid; 
+}
+
+
+
+header .container .logo img{
+    width:100px;
+    border:blue 3px solid;
+}
+
+
+
+
+/*service*/
+
+.service{
+       min-height: 500px;
+       background-color: #e6e6e6;
+       background-size: cover;
+       background-repeat: no-repeat;
+       padding-top:20px;
+       padding-bottom: 20px;
+   
+}
+
+
+
+ .branding .h3_1{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+
+}
+
+
+
+.branding h3{
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 20px;
+    
+
+}
+
+.branding p{
+    font-size: 15px;
+    font-weight: 300px;
+    
+
+}
+
+.branding a{
+    font-size: 20px;
+    font-weight: 300px;
+
+
+}
+
+.branding{
+    margin-left: 40px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+
+.service-1 h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.service-1 p{
+    font-size: 15px;
+    font-weight: 300px;
+    
+}
+
+.service-1{
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+footer  {
+    padding:20px;
+    text-align:center;
+    color:white;
+    background-color: red;
+    font-weight:bold;
+    
+   }
+
+
+

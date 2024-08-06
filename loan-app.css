@@ -1,4 +1,6 @@
-
+body{
+    background:rgba(0,0,0,0.7);
+}
 
 
 
@@ -16,41 +18,13 @@
         
         
         
-        .containerr{
+        .container-form{
             width:1000px;
             margin:auto;
             overflow: hidden;
         }
         
         
-        
-         /*RWD*/
-        
-          .containerr{
-            width: 1000px;
-            margin:auto;
-        }
-        
-        @media(max-width:600px) and (orientation:landscape){
-            .containerr {
-                width:100%; 
-                margin:auto;
-            }
-        }
-        
-        @media(max-width:600px) and (orientation:portrait){
-            .containerr{
-                width:100%; 
-                margin:auto;
-            }
-        }
-        
-        @media(min-width:601px) and (max-width:768px){
-            .containerr {
-                width:100%; 
-                margin:auto;
-            }
-        }
         
         
         header{
@@ -146,3 +120,46 @@
         
         
         
+
+
+
+              
+         /*RWD*/
+        
+          .container-form{
+            width: 1000px;
+            margin:auto;
+        }
+        
+        @media(max-width:600px) and (orientation:landscape){
+            .container-form {
+                width:100%; 
+                margin:auto;
+            }
+        }
+        
+        @media(max-width:600px) and (orientation:portrait){
+            .container-form{
+                width:100%; 
+                margin:auto;
+            }
+
+
+
+
+            form{
+                margin-left: 45%;
+                /* border: 1px solid red;
+                width:14.2%; */
+                margin-top: -40px;
+                margin-left: 100px;
+            }
+        }
+        
+        @media(min-width:601px) and (max-width:768px){
+            .container-form {
+                width:100%; 
+                margin:auto;
+            }
+        }
+     
